@@ -1,0 +1,18 @@
+{
+  "name": "Dump Heap",
+  "description": "dumps the heap of the currently open page",
+  "version": "0.1",
+  "permissions": [
+    "debugger",
+    "downloads"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Dump Heap"
+  },
+  "manifest_version": 2
+}
+
