@@ -4,6 +4,9 @@ Dump Heap
 
 Basic chrome extension that dumps the heap of currently open tab
 
+To debug the dumped heap file:
+------------------------------
+
 Follow the instructions from https://developers.google.com/web/tools/chrome-devtools/profile/memory-problems/memory-diagnosis?hl=en#discover-detached-dom-tree-memory-leaks-with-heap-snapshots
 ![memory-leaks-with-heap-snapshots](./demo.gif)
 
